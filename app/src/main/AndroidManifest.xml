@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GarbageCollector"
+        tools:targetApi="31">
+        <activity
+            android:name=".AllAcepted"
+            android:exported="false" />
+        <activity
+            android:name=".Alldriver"
+            android:exported="false" />
+        <activity
+            android:name=".Allfeedback"
+            android:exported="false" />
+        <activity
+            android:name=".Alluser"
+            android:exported="false" />
+        <activity
+            android:name=".Allwastage"
+            android:exported="false" />
+        <activity
+            android:name=".Accepted_Food"
+            android:exported="false" />
+        <activity
+            android:name=".U_Feedback"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Login"
+            android:exported="false" />
+        <activity
+            android:name=".Our_Accepted"
+            android:exported="false" />
+        <activity
+            android:name=".My_Acceptd_Food"
+            android:exported="false" />
+        <activity
+            android:name=".Order_Food"
+            android:exported="false" />
+        <activity
+            android:name=".Delaviry_Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Delaviry_Register"
+            android:exported="false" />
+        <activity
+            android:name=".Upload"
+            android:exported="true" />
+        <activity
+            android:name=".Delivery_Login"
+            android:exported="false" />
+        <activity
+            android:name=".Login_Dashboard"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Admin_Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".User_Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Register_Page"
+            android:exported="true" />
+        <activity
+            android:name=".Login_Page"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+</manifest>
