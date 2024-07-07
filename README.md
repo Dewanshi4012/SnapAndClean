@@ -1,0 +1,2 @@
+# SnapAndClean
+Garbage collector app
