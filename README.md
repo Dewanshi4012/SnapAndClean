@@ -58,11 +58,4 @@ SnapAndClean is an efficient waste management Android application designed with 
 - Adding support for multiple languages.
 - AI-based garbage categorization for recycling.
 - Integration with local municipal systems.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-Feel free to contribute and make this app better!
-
+  
